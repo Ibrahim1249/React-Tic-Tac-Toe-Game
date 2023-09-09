@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+* {
+    box-sizing: border-box;
+}
+#root{
+    height: 100vh;
+    width: 100vw;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+}
+.board{
+    height: 100%;
+    width: 50%;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.game-board{
+    height: 60%;
+    width: 60%;
+    border: 2px solid white;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border-radius: 5px;
+ 
+}
+.game-board span{
+    text-align: center;
+
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    border-bottom:2px solid white;
+    
+}
+.game-board .content{
+    display: flex;
+    flex-wrap: wrap;
+width: 100%;
+height: 100%;
+/* padding: 20px; */
+padding-left: 13px;
+/* background-color: lightblue; */
+}
+.board .content button{
+    height: 32%;
+    width: 32%;
+    border-bottom: 2px solid black;
+    margin: 2px 1px;
+    font-size: 135px;
+    cursor: pointer;
+  
+}
+.board .content button:hover{
+    background-color: lightgoldenrodyellow;
+}
+
+.title{
+   height: 10%;
+   width: 100%;
+  text-align: center;
+   border-bottom: 3px solid white;
+   padding-top: 30px;
+   font-size: 40px;
+   color: white;
+}
+
+.display{
+    height: 100%;
+    width: 50%;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+  
+}
+.history-board {
+    height: 60%;
+    width: 60%;
+    border: 2px solid white;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border-radius: 5px;
+ 
+}
+.history-board  span{
+    text-align: center;
+
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    /* margin-bottom: 5px; */
+    border-bottom:2px solid white;
+    
+}
+.history-board .content{
+width: 100%;
+height: 100%;
+overflow-y: auto;
+
+}
+.history-board  .content button{
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+  
+}
+.history-board .content button:hover{
+    background-color: lightgoldenrodyellow;
+}
